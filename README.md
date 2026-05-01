@@ -1,5 +1,4 @@
-# ardupilot-rl-navigation
- 
+
 
 # ArduPilot RL Navigation
 
