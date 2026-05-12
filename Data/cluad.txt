@@ -1,0 +1,25 @@
+## My GSoC 2027 Journey
+
+### Progress so far:
+- WSL2 + Ubuntu setup ✅
+- ArduPilot SITL running ✅
+- Python + DroneKit connected ✅
+- Takeoff/Land/Move working ✅
+- Mission Planner connected ✅
+
+### Key people:
+- Nate Mailhot (mentor) - ArduPilot Discord
+- Rishabh Singh - ArduPilot Discord
+- Bruno Andreoni - GSoC 2025 (his repo: github.com/b-andreoni/GSoC)
+
+### My project idea:
+- Use Bruno's Lua scaffolding for resets
+- Build Gym env + reward in Python
+- Train PPO/A2C using Stable Baselines3
+- Goal: A to B autonomous navigation
+
+### Next steps:
+- Clone Bruno's repo
+- Ask Nate about Lua vs Python approach
+- Build Gym environment
+- Train first PPO agent

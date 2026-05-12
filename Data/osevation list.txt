@@ -1,0 +1,16 @@
+Index	Obs			Why useful
+
+0	north			Where I am
+1	east			Where I am
+2	alt			Height
+3	dist north		How far to target
+4	dist east		How far to target
+5	dist			Total distance
+6	vx			Speed north
+7	vy			Speed east
+8	vz			Vertical speed
+9	roll			Stability
+10	pitch			Stability
+11	yaw			Direction
+12	battery remaining	Efficiency
+13	current consumed	Efficiency

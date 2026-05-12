@@ -1,0 +1,42 @@
+cd ~/ardupilot/ArduCopter ----- for silt directory
+
+
+cd /mnt/d/my_project/ardupilot_rl
+# Ctrl+C then restart
+sim_vehicle.py -v ArduCopter ----- to open the sitl
+
+
+
+wslpath -w $(pwd)  ------ for the current path in ubuntu
+eg:   \\wsl.localhost\Ubuntu\home\charan\ardupilot\ArduCopter
+
+
+
+
+
+------------------------------------------------------------------------
+for 2 env
+
+
+cd ~/ardupilot/ArduCopter
+
+sitl0/
+  scripts/
+    reset.lua
+
+sitl1/
+  scripts/
+    reset.lua
+
+
+
+sim_vehicle.py -v ArduCopter \
+  --aircraft sitl0 -I0 \
+  --add-param-file /home/charan/ardupilot/ArduCopter/param/sitl0.parm
+
+
+
+sim_vehicle.py -v ArduCopter \
+  --aircraft sitl1 -I1 \
+  --add-param-file /home/charan/ardupilot/ArduCopter/param/sitl1.parm
+
